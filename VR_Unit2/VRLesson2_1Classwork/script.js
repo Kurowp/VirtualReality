@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded",function() {
   dodecahedron.setAttribute("color", "Purple");
 
   //Challenge 4: Add the <a-dodecahedron> to the scene
-  scene.append(dodecahedron);
+  scene.append(dodecahedron);    
 
   /* Challenge Bonus
   1) Use a for loop to create a lot of <a-dodecahedron> 
