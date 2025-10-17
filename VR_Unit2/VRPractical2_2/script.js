@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded",function() {
     dude.s = 0;
     dude.ds = .01;
     car.x = 0;
-    car.dx = .01;
+    car.dx = -.01;
 
 
     loop();
