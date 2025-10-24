@@ -19,6 +19,6 @@ class Cloud{
   }
   fly(){
     this.x += this.dx
-    this.obj.setAttribute("position",{x:this.x, y:this.y, z:this.z});
+    this.obj.setAttribute("position",{x:this.x, y:0, z:0});
   }
 }

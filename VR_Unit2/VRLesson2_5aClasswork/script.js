@@ -9,6 +9,8 @@ window.addEventListener("DOMContentLoaded",function() {
     tree.scale(rnd(1,4));
   }
   snowman = new Snowman(-5,0);
+  cloud = new Cloud(10,-1);
+  snowflake = new Snowflake(5,10);
   //Challenge 3: Create a cloud at some high position. Don't forget to declare the variable up top.
 
   //Challenge 7: Create a snowflake at some high position. Don't forget to declare the variable up top.
@@ -17,7 +19,9 @@ window.addEventListener("DOMContentLoaded",function() {
 
 function loop(){
   snowman.spin();
+  cloud.fly();
   //Challenge 4: Make the cloud fly
+  snowflake.fall();
   //Challenge 8: Make the snowflake fall
   window.requestAnimationFrame(loop);
 }
