@@ -36,7 +36,7 @@ class Blackhole{
         ring4.setAttribute("position",{x:0,y:0,z:0});
         ring4.setAttribute("radius-inner",4);
         ring4.setAttribute("radius-outer",6);
-        ring4.setAttribute("color","#2e2137");
+        ring4.setAttribute("color","#ffffffff");
         ring4.setAttribute("rotation",{x:0,y:-45,z:0});
         ring4.setAttribute("side","double");
         this.obj.append(ring4);
@@ -50,7 +50,7 @@ class Blackhole{
 
         scene.append(this.obj);
         this.obj.setAttribute("scale",{x:50,y:50,z:0.});
-        this.obj.setAttribute("position",{x:100,y:200,z:-500});
+        this.obj.setAttribute("position",{x:100,y:300,z:-500});
         
     }
 }
