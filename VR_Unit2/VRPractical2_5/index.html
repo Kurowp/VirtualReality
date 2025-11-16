@@ -4,6 +4,11 @@
     <script src="script.js"></script>
     <script src="wall.js"></script>
     <script src="wall2.js"></script>
+    <script src="wall3.js"></script>
+    <script src="Planet.js"></script>
+    <script src="spider.js"></script>
+    <script src="spider2.js"></script>
+    <script src="spider3.js"></script>
   </head>
   <body>
     <a-scene>
@@ -12,10 +17,15 @@
              Upload a picture to use as the texture for the walls of your maze if you want
         -->
       </a-assets>
-      <a-plane position="0 -100 0" rotation="-90 0 0" width="150" height="150" color="#AAFFAA"></a-plane>
+      <a-plane position="250 -100 100" rotation="-90 0 0" width="500" length="150" height="150" src="dirt.jpg" ></a-plane>
+      <a-plane position="250 -100.3 200" rotation="-90 0 0" width="500" length="150" height="150" src="dirt.jpg" ></a-plane>
+      <a-plane position="250 -100.2 300" rotation="-90 0 0" width="500" length="150" height="150" src="dirt.jpg" ></a-plane>
+      <a-plane position="250 -100.1 400" rotation="-90 0 0" width="500" length="150" height="150" src="dirt.jpg" ></a-plane>
+      <a-sphere position="210 -10 100" radius="5" color="red"></a-sphere>
+
       
       
-      <a-sky color="blue"></a-sky>
-      <a-camera wasd-controls="acceleration: 500; fly: true" position=" 0 1.5 0"></a-camera>      
+      <a-sky src="space.jpg" position="200 0 500"></a-sky>
+      <a-camera wasd-controls="acceleration: 500; fly: true" position=" 250 -90 250"></a-camera>      
       </a-camera>
 </html>
