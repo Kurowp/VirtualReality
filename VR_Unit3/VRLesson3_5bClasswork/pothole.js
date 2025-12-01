@@ -6,4 +6,5 @@ class Pothole{
     this.obj.setAttribute("position",{x:x,y:0.025,z:z});
     scene.append( this.obj );
   }
-}
+  
+  }

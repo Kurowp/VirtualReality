@@ -8,12 +8,11 @@ window.addEventListener("DOMContentLoaded",function() {
 
   ufo1 = new UFO(0,10,0);
   rocket1 = new Rocket(0,0,0);
-  cars = new Car(0,0,-10);
+  star1 = new star(0,15,0);
   loop();
 })
 
 function loop(){
-  cars.drive();
   rocket1.fly();
   ufo1.invades();
     
