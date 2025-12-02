@@ -10,7 +10,8 @@ window.addEventListener("DOMContentLoaded",function() {
   for(let i=0;i<10;i++){
     x = rnd(-10,10);
     z = rnd(-10,10);
-    potholes = new Pothole(x,z);
+    let pothole = new Pothole(x,z);
+    potholes.push(pothole);
   }
 
  
